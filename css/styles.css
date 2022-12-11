@@ -10,14 +10,11 @@
 
 body {
   background: linear-gradient(90deg, rgba(1,42,58,1) 0%, rgba(41,67,80,1) 50%, rgba(1,42,58,1) 100%); 
+  color: white;
 }
 
 p {
   line-height: 1.75;
-}
-
-.text-faded {
-  color: white;
 }
 
 .site-heading {
@@ -48,8 +45,13 @@ p {
 }
 .section-heading .section-heading-lower {
   display: block;
-  font-size: 3rem;
+  font-size: 2.22rem;
   font-weight: 100;
+}
+@media (min-width: 1200px) {
+  .section-heading .section-heading-lower {
+    font-size: 2.32rem;
+  }
 }
 
 .bg-faded {
@@ -136,7 +138,6 @@ p {
 
 .intro {
   position: relative;
-  color: white;
 }
 @media (min-width: 992px) {
   .intro .intro-img {
