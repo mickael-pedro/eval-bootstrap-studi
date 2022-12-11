@@ -60,11 +60,11 @@ p {
 
 .btn-xl {
   font-weight: 700;
-  font-size: 0.8rem;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  font-size: 1.2rem;
+  padding-top: 1.1rem;
+  padding-bottom: 1.1rem;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
 }
 
 #mainNav {
@@ -162,4 +162,8 @@ p {
   .intro .intro-text {
     width: 45%;
   }
+}
+
+.img-game {
+  max-height: 15rem;
 }
